@@ -1,12 +1,17 @@
-Paste your Firebase settings below this line, replacing the example.
-(Firebase shows them after you add a Web app: Project settings → Your apps → SDK setup and configuration → Config.)
-It's fine to paste the whole block Firebase shows you. These settings are safe to be public.
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "PASTE-YOUR-API-KEY",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "000000000000",
-  appId: "1:000000000000:web:0000000000000000"
+  apiKey: "AIzaSyAlumx1OIfP38l_SrK_psz-Q4HlhsEc9Ho",
+  authDomain: "electroniccorner.firebaseapp.com",
+  projectId: "electroniccorner",
+  storageBucket: "electroniccorner.firebasestorage.app",
+  messagingSenderId: "545636535737",
+  appId: "1:545636535737:web:7839945ff4d4fb0510ba68"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
