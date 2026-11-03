@@ -1,0 +1,12 @@
+Paste your Firebase settings below this line, replacing the example.
+(Firebase shows them after you add a Web app: Project settings → Your apps → SDK setup and configuration → Config.)
+It's fine to paste the whole block Firebase shows you. These settings are safe to be public.
+
+const firebaseConfig = {
+  apiKey: "PASTE-YOUR-API-KEY",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project",
+  storageBucket: "your-project.appspot.com",
+  messagingSenderId: "000000000000",
+  appId: "1:000000000000:web:0000000000000000"
+};
